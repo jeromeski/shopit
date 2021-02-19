@@ -1,6 +1,7 @@
 const app = require('./app');
 const connectDatabase = require('./config/database');
 
+// loads environment variables from a . env file into process. env
 const dotenv = require('dotenv');
 
 //  Setup config file path

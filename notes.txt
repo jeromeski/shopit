@@ -1,0 +1,13 @@
+1. Setup environment
+  a. Install tools. ex. mongodb compass
+2. Start backend
+  a. Install mongoose, dotenv, nodemon, morgan
+  b. Install and setup Postman Environment
+  c. Create dir for config, routes, controllers
+  d. Setup first route
+  e. Connect mongodb
+3. Adding Products resource
+  a. Create models/product.js dir
+  b. Setup the model for products
+    • name
+    • name
