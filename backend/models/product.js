@@ -40,7 +40,7 @@ const productSchema = mongoose.Schema({
 			values: [
 				'Electronics',
 				'Cameras',
-				'Laptop',
+				'Laptops',
 				'Accessories',
 				'Headphones',
 				'Food',
@@ -89,3 +89,5 @@ const productSchema = mongoose.Schema({
 		default: Date.now
 	}
 });
+
+module.exports = mongoose.model('Products', productSchema);
