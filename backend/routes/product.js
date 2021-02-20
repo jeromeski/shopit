@@ -4,7 +4,8 @@ const {
 	getProducts,
 	newProduct,
 	getSingleProduct,
-	updateProduct
+	updateProduct,
+	deleteProduct
 } = require('../controllers/productControllers');
 
 
@@ -14,7 +15,7 @@ router.get('/products', getProducts);
 
 router.get('/product/:id', getSingleProduct);
 
-router.route('/admin/product/:id').put(updateProduct);
+router.route('/admin/product/:id').put(updateProduct).delete(deleteProduct);
 
 router.route('/admin/product/new').post(newProduct);
 
